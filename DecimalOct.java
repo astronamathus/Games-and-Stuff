@@ -2,6 +2,7 @@ import java.util.*;
 class DecimalOct
 {
     int dec;
+    //Constructor
     DecimalOct()
     {
         dec = 0;    
@@ -12,6 +13,7 @@ class DecimalOct
         System.out.println("Enter a decimal number:");
         dec = sc.nextInt();
     }
+    //Convertor method
     String convert(int n)
     {
         String res = "";
